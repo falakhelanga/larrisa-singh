@@ -1,0 +1,62 @@
+.home_wrapper {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.home_container {
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.home_container p {
+  color: white;
+}
+
+.home_container h1 {
+  color: white;
+  font-weight: bold;
+}
+.home_btn {
+  width: 100%;
+}
+
+.bt:hover {
+  box-shadow: 0px 0px 10px rgb(19, 63, 29);
+}
+
+.desc_div {
+  display: none;
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .desc_div {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .desc_p {
+    font-size: medium;
+    line-height: normal;
+  }
+  .home_btn {
+    width: 270px;
+    margin: auto;
+  }
+  .home_container h1 {
+    font-size: 6rem;
+  }
+  .home_container p {
+    font-size: large;
+  }
+  .cont_div {
+    text-align: center;
+    display: none;
+  }
+}

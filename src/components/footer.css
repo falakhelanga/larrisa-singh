@@ -1,0 +1,36 @@
+.footer_wrapper {
+  background-color: black;
+}
+
+.practice_area {
+  margin-top: 5px;
+}
+
+.footer_btn {
+  width: 100%;
+}
+
+.form_div {
+  width: 100%;
+}
+.practice_area ul {
+  background-color: tomato;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start; */
+}
+
+.practice_area p {
+  line-height: 0.5rem;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .form_div {
+    width: 50%;
+  }
+  .footer_container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
